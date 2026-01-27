@@ -12,15 +12,15 @@ LIBTARGET := lib/libcsci2100.a
 lib: $(LIBTARGET)
 
 $(LIBTARGET): $(LIBOBJ)
-	$(AR) $(ARFLAGS) $@ $^
+    $(AR) $(ARFLAGS) $@ $^
 
 lib/%.o: src/%.c
     if ! [ -d lib ] then; mkdir lib; fi
-	$(CC) $(CFLAGS) -c $< -o $@
+    $(CC) $(CFLAGS) -c $< -o $@
 
 clean:
-	-rm $(LIBOBJ) 2> /dev/null
-	-rm $(LIBTARGET) 2> /dev/null
+    -rm $(LIBOBJ) 2> /dev/null
+    -rm $(LIBTARGET) 2> /dev/null
 
 
 .PHONY: lib clean
