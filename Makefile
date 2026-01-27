@@ -15,6 +15,7 @@ $(LIBTARGET): $(LIBOBJ)
 	$(AR) $(ARFLAGS) $@ $^
 
 lib/%.o: src/%.c
+ if ! [ -d lib ] then; mkdir lib; fi
 	$(CC) $(CFLAGS) -c $< -o $@
 
 clean:
