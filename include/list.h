@@ -18,3 +18,9 @@ listADT Tail(listADT);
 
 int ListIsEmpty(listADT);
 
+listElementT SumList(listADT L1);
+
+listElementT LastElement(listADT L1);
+
+listADT Append(listADT L1, listElementT x);
+
