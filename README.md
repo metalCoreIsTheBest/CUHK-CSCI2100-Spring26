@@ -4,9 +4,9 @@ An unofficial repo of CUHK CSCI2100B Data Structures
 ---
 
 ## 📖 Desciption
-- This repository contains the C source codes included in the lecture slides of CSCI2100 Data Structures. The orginal codes are scattered in different slides, so I collected them and put them all into this repostiory.
+- This repository contains the C source codes included in the lecture slides of CSCI2100B Data Structures. The orginal codes are scattered in different slides, so I collected them and put them all into this repostiory.
 - The header files are inside `include/` and the implementations are inside `src/`.
-- ⚠️ I don't guarantee these codes are 100% correct since I may make some mistakes when I copy these codes. Also, the actual codes are subject to change if you are from a different class (e.g. CSCI2100A) or attend the course after spring 2026. So, please double check before you use them in your assignments.
+- ⚠️ I don't guarantee that these codes are 100% correct since I may make some mistakes when I copy these codes. Also, the actual codes are subject to change if you are from a different class (e.g. CSCI2100A) or attend the course after spring 2026. So, please double check before you use them in your assignments.
 - I don't think using this repo is plagiarism since I only put the codes from the lecture slides into this repo. Actually, I think the lecturer should provide these codes in text files for us since it is really a pain in the ass to collect all the sources codes from the lecture slides.
 
 ## 💻 Usage
