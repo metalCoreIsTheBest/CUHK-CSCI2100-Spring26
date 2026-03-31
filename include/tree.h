@@ -1,6 +1,6 @@
 #pragma once
 
-// this implementation of list may result in memory leakage problems
+// this implementation may result in memory leakage problems
 
 #include <stdbool.h>
 
